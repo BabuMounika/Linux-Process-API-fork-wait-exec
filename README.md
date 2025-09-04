@@ -73,7 +73,7 @@ int main() {
     return 0;
 }
 ```
-##output
+## output
 <img width="1033" height="77" alt="image" src="https://github.com/user-attachments/assets/9e2d9c94-97f1-404d-bdc2-9402000ad1d6" />
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
