@@ -25,7 +25,7 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
-'''
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -44,12 +44,12 @@ int main(void)
 	printf("The process id: %d\n",process_id);
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
-'''
-##OUTPUT
+```
+## OUTPUT
 <img width="1029" height="79" alt="image" src="https://github.com/user-attachments/assets/d7bd5d14-f53f-4f4b-9faa-2f835a5c3402" />
 
 ## C Program to create new process using Linux API system calls fork() and exit()
-'''
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -72,12 +72,12 @@ int main() {
     }
     return 0;
 }
-'''
+```
 ##output
 <img width="1033" height="77" alt="image" src="https://github.com/user-attachments/assets/9e2d9c94-97f1-404d-bdc2-9402000ad1d6" />
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-'''
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -105,8 +105,8 @@ int main() {
     }
     return 0;
 }
-'''
-##OUTPUT
+```
+## OUTPUT
 <img width="1033" height="240" alt="image" src="https://github.com/user-attachments/assets/0b4b5e09-e785-48ea-9e6c-125632027965" />
 
 # RESULT:
